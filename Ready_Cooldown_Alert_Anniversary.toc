@@ -4,7 +4,7 @@
 ## Author: Jacuv
 ## Version: 1.0.0-Anniversary
 ## SavedVariables: ReadyCooldownAlertDB
-## X-Curse-Project-ID: 1324314
+## X-Curse-Project-ID: 1430077
 ## X-Wago-ID: E6gLb4K1
 
 # Core System
