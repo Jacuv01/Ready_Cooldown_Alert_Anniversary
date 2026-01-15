@@ -1,0 +1,45 @@
+## Interface: 20505
+## Title: Ready Cooldown Alert (Anniversary Edition)
+## Notes: Alerts you when your abilities are ready to use. (Anniversary Edition Compatible)
+## Author: Jacuv
+## Version: 1.0.0-Anniversary
+## SavedVariables: ReadyCooldownAlertDB
+## X-Curse-Project-ID: 1324314
+## X-Wago-ID: E6gLb4K1
+
+# Core System
+Core\Init.lua
+
+# Utils Layer 
+Modules\Utils\AnimationUtils.lua
+Modules\Utils\TextureValidator.lua
+
+# Data Layer 
+Modules\Data\SpellData.lua
+Modules\Data\ItemData.lua
+Modules\Data\PetData.lua
+Modules\Data\CooldownData.lua
+Modules\Data\AnimationData.lua
+
+# Hook System 
+Modules\Hooks\ActionHooks.lua
+Modules\Hooks\SpellHooks.lua
+Modules\Hooks\CombatHooks.lua
+Modules\Hooks\HookManager.lua
+
+# Logic Layer 
+Modules\Logic\FilterProcessor.lua
+Modules\Logic\AnimationProcessor.lua
+Modules\Logic\CooldownProcessor.lua
+Modules\Logic\OptionsLogic.lua
+Modules\Logic\LogicManager.lua
+
+# UI Layer 
+Modules\UI\MainFrame.lua
+Modules\UI\Components\LayoutManager.lua
+Modules\UI\Components\SliderManager.lua
+Modules\UI\Components\ButtonManager.lua
+Modules\UI\Components\ControlsManager.lua
+Modules\UI\Components\TabManager.lua
+Modules\UI\Components\FiltersUI.lua
+Modules\UI\OptionsFrame.lua
